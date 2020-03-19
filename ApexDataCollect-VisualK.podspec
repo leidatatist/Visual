@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'ApexDataCollect-Visual'
-  s.version          = '0.0.1'
-  s.summary          = 'A short description of ApexDataCollect-Visual.'
+  s.name             = 'ApexDataCollect-VisualK'
+  s.version          = '0.0.2'
+  s.summary          = 'A short description of ApexDataCollect-VisualK.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
