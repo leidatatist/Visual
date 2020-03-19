@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ApexDataCollect-Visual'
-  s.version          = '0.0.2'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of ApexDataCollect-Visual.'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/yuanfangzhuye/ApexDataCollect-Visual'
+  s.homepage         = 'https://github.com/leidatatist/Visual'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'yuanfangzhuye' => '371551077@qq.com' }
-  s.source           = { :git => 'https://github.com/yuanfangzhuye/ApexDataCollect-Visual.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/leidatatist/Visual.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -34,7 +34,7 @@ TODO: Add long description of the pod here.
   s.vendored_frameworks = 'ApexDataCollect-Visual/Classes/ApexDataCollectVisualSDK.framework'
   
   s.resource_bundles = {
-    'ApexDataCollect-Visual' => ['ApexDataCollect-Visual/Assets/*.png']
+    'ApexDataCollectVisual' => ['ApexDataCollect-Visual/Assets/*.png']
    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
