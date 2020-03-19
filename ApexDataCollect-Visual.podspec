@@ -33,9 +33,9 @@ TODO: Add long description of the pod here.
   # s.source_files = 'ApexDataCollect-Visual/Classes/**/*'
   s.vendored_frameworks = 'ApexDataCollect-Visual/Classes/ApexDataCollectVisualSDK.framework'
   
-  # s.resource_bundles = {
-  #   'ApexDataCollect-Visual' => ['ApexDataCollect-Visual/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'ApexDataCollect-Visual' => ['ApexDataCollect-Visual/Assets/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
